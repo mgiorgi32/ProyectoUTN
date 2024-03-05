@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final Marcos</title>
+    <link rel="stylesheet" href="CSS/estilos.css"/>
+    <script src="JS/funciones.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/08cfa39d3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Musictrix</h1>
+        <h5>La mejor pagina para conocer a tus artistas favoritos</h5>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/marcos-giorgi-0b62411b7/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/mgiorgi32/" target="_blank">Contacto</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/musicarg04/" target="_blank">Encontranos tambien en IG</a>
+            </li>
+            <li>
+                <a href="mailto:marcosgiorgi01@gmail.com ? subject = Contacto & body = Recomendacion">Recomendaciones</a>
+            </li>
+            <li>
+                <div class="reloj" id="reloj"></div>
+            </li>
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+   <div class="contenedor">
+    <div class="cuadrado">
+        <div class="col-3-md" style="text-align: center;">
+            <h3 style="text-align: center;">Taylor Swift</h3>
+            <img src="IMG/taylorPortada.jpg"/>
+            <div style="text-align: center;">
+                <button onclick="acercaDeTS()">Acerca de</button>
+                <button onclick="IrALaswiftWeb()" >Mas info</button>
+            </div>
+        </div>
+    </div>  
+    <div class="cuadrado">
+        <div class="col-3-md" style="text-align: center;">
+            <h3 style="text-align: center;">The weeknd</h3>
+            <img src="IMG/theWeekndPortada.avif" style="text-align: center;"/>
+            <div style="text-align: center;">
+                <button onclick="acercaDeTW()">Acerca de</button>
+                <button onclick="IrALaWeekndWeb()" >Mas info</button>
+            </div>
+        </div>
+    </div>  
+    <div class="cuadrado">
+        <div class="col-3-md" style="text-align: center;">
+            <h3 style="text-align: center;">Billie Eilish</h3>
+            <img src="IMG/billiePortada.webp"/>
+            <div style="text-align: center;">
+                <button onclick="acercaDeBE()">Acerca de</button>
+                <button onclick="IrALaBillieWeb()" >Mas info</button>
+            </div>
+        </div>
+    </div>  
+   </div>
+   <br>
+   <br>
+   <br>
+
+    <div class="contenedor">
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Paulo Londra</h3>
+                <img src="IMG/pauloLondraPortada.webp"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDePL()">Acerca de</button>
+                    <button onclick="IrALaPauloWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div> 
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Ariana Grande</h3>
+                <img src="IMG/arianaPortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeAG()">Acerca de</button>
+                    <button onclick="IrALaArianaWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Duki</h3>
+                <img src="IMG/dukiPortada.avif"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeD()">Acerca de</button>
+                    <button onclick="IrALaDukiWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Miley cyrus</h3>
+                <img src="IMG/mileyCyrusPortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeMC()">Acerca de</button>
+                    <button onclick="IrALaMileyWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Imagine Dragons</h3>
+                <img src="IMG/imagineDragonsPortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeID()">Acerca de</button>
+                    <button onclick="IrALaDragonsWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">SZA</h3>
+                <img src="IMG/SZAPortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeS()">Acerca de</button>
+                    <button onclick="IrALaSZAWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Coldplay</h3>
+                <img src="IMG/coldplayPortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeC()">Acerca de</button>
+                    <button onclick="IrALaColdplayWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Paramore</h3>
+                <img src="IMG/paramorePortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeP()">Acerca de</button>
+                    <button onclick="IrALaParamoreWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Airbag</h3>
+                <img src="IMG/AirbagPortada.jpeg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeA()">Acerca de</button>
+                    <button onclick="IrALaAirbagtWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Nicki Nicole</h3>
+                <img src="IMG/NickiNicolePortada.jpg"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeNN()">Acerca de</button>
+                    <button onclick="IrALaNickiWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Bizarrap</h3>
+                <img src="IMG/BZRPPortada.webp"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeBZ()">Acerca de</button>
+                    <button onclick="IrALaBZRPtWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>  
+        <div class="cuadrado">
+            <div class="col-3-md" style="text-align: center;">
+                <h3 style="text-align: center;">Dua Lipa</h3>
+                <img src="IMG/DuaLipaPortada.webp"/>
+                <div style="text-align: center;">
+                    <button onclick="acercaDeDL()">Acerca de</button>
+                    <button onclick="IrALaDuaWeb()" >Mas info</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <br><br><br>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/marcos-giorgi-0b62411b7/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/mgiorgi32/" target="_blank">Contacto</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/musicarg04/" target="_blank">Encontranos tambien en IG</a>
+            </li>
+            <li>
+                <a href="mailto:marcosgiorgi01@gmail.com ? subject = Contacto & body = Recomendacion">Recomendaciones</a>
+            </li>
+        </ul>
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css"/>
+    <script src="JS/funciones.js" type="text/javascript"></script>
+    <script src="JS/duaLipa.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/08cfa39d3d.js" crossorigin="anonymous"></script>
+    <title>Proyecto final marcos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="titulo">Dua Lipa</h1> 
+        </div>
+        <div>
+            <button class="botonesArtista" onclick="IrAlDLSpotify()" title="Spotify">
+                <i class="fa-brands fa-spotify"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLIG()" title="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLRecital()" title="Ver recital">
+                <i class="fa-solid fa-guitar"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLTW()" title="twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLYT()" title="youtube">
+                <i class="fa-brands fa-youtube"></i>
+            </button>
+            <button class="botonesArtista" onclick="volver()" title="Volver a inicio">
+                <i class="fa-solid fa-house"></i>
+            </button>
+        </div>
+    </header>
+    <br>
+    <br>
+    <img class="principal" src="IMG/principal/duaPortada.jpg"/>
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <div class="cuadradoArtista">
+            <h3>Bibliografia</h3>
+            <p>Dua Lipa es una cantante y compositora británica nacida el 22 de agosto de 1995 en Londres, Reino Unido. Desde temprana edad, mostró un gran interés por la música, influenciada por diversos géneros como el pop, el R&B y el hip-hop. Comenzó a ganar reconocimiento en la industria musical con el lanzamiento de sencillos en 2015, como "New Love" y "Be the One", que rápidamente atrajeron la atención de la crítica y del público.</p>
+            <p>El álbum debut homónimo de Dua Lipa, lanzado en 2017, fue un gran éxito, con sencillos como "New Rules", "IDGAF" y "Blow Your Mind (Mwah)". Este álbum la catapultó a la fama internacional y le valió varios premios, incluidos dos premios Grammy. Su estilo distintivo y su voz única la convirtieron en una de las artistas más influyentes de la música pop contemporánea.</p>
+            <p>Desde entonces, Dua Lipa ha continuado cosechando éxitos con su segundo álbum de estudio, "Future Nostalgia" (2020), que incluye éxitos como "Don't Start Now", "Physical" y "Levitating". Este álbum le ha otorgado aún más reconocimiento, consolidándola como una de las principales artistas pop de la actualidad.</p>
+            <p>Además de su éxito en la música, Dua Lipa también ha incursionado en la moda y el activismo, utilizando su plataforma para abogar por la igualdad y la justicia social. En la actualidad, sigue siendo una fuerza creativa en la industria musical, innovando y cautivando a audiencias de todo el mundo con su música vibrante y su estilo único.</p>
+        </div>
+        <div class="cuadradoArtista">
+            <img src="IMG/pag/dua/dua1.jpg">
+            <img src="IMG/pag/dua/dua2.jpg">
+            <img src="IMG/pag/dua/dua3.jpg">
+            <img src="IMG/pag/dua/dua4.jpg">
+            <img src="IMG/pag/dua/dua5.jpg">
+            <img src="IMG/pag/dua/dua6.webp"> 
+        </div>
+    </div>
+    <br><br><br>
+    <div class="contenedor">
+        <div class="cuadradoArtista">
+            <a href="https://open.spotify.com/intl-es/album/0obMz8EHnr3dg6NCUK4xWp?si=fsr4x2IRSbuPE4WuFJWofg" title="Dua Lipa" target="_blank">
+                <img src="IMG/Albums/dua/duaLipa.webp">
+            </a>
+            <a href="https://open.spotify.com/intl-es/track/1vYXt7VSjH9JIM5oRRo7vA?si=01adc2f3e2e34b9a" title="Dance the night" target="_blank">
+                <img src="IMG/Albums/dua/Dance_the_Night.png">
+            </a>
+            <a href="https://open.spotify.com/show/5FmvJeZbaveegz43O3cFKp?si=874413c1919e4348" title="At your service" target="_blank">
+                <img src="IMG/Albums/dua/atYourService.jpg">
+            </a>
+            <a href="https://open.spotify.com/intl-es/track/4OMJGnvZfDvsePyCwRGO7X?si=3d12dab2595a4914" title="Houdini" target="_blank">
+                <img src="IMG/Albums/dua/houdini.jpg">
+            </a>
+            <a href="https://open.spotify.com/intl-es/album/0E3wRkztEF32ZdYICXBuBf?si=acuKZXZ2RaeM3BlsZ9c5TQ" title="Future nostalgia" target="_blank">
+                <img src="IMG/Albums/dua/futureNostalgia.jpg">
+            </a>
+            <a href="https://open.spotify.com/intl-es/album/11u8ZjrMHunQFg7l3nfDaX?si=a8UoBkgbTDm1Tyh_rWhUOg" title="Swan song" target="_blank">
+                <img src="IMG/Albums/dua/swanSong.webp">
+            </a>
+        </div>
+        <div class="cuadradoArtista">
+            <h3>Recomendaciones</h3>
+            <div class="conteViñetas">
+                <ul class="viñetas">
+                    <li>Future nostalgia:
+                        <ul class="viñetas-sub">
+                            <li>Dont start now</li><br>
+                            <li>Cool</li><br>
+                            <li>Pretty please</li><br>
+                            <li>Hallucinate</li><br>
+                            <li>Love again</li><br>
+                            <li>Good in bed</li><br>
+                            <li>Were Good</li><br>
+                            <li>If it aint me</li><br>
+                            <li>That kind of woman</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="viñetas">
+                    <li>Dua Lipa:
+                        <ul class="viñetas-sub">
+                            <li>Lost in your light</li><br>
+                            <li>Hotter than hell</li><br>
+                            <li>Be the one</li><br>
+                            <li>IDGAF</li><br>
+                            <li>thinking bout you</li><br>
+                            <li>New rules</li><br>
+                            <li>Dreams</li><br>
+                            <li>Last Dance</li><br>
+                            <li>Running</li><br>
+                            <li>Kiss and make up</li><br>
+                            <li>One Kiss</li><br>
+                            <li>Electricity</li><br>
+                            <li>Scared to be lonely</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="viñetas" style="width: 100%;">
+                    <li>Otros:
+                        <div class="columnas">
+                            <div class="columna-izquierda">
+                                <ul class="viñetas-sub">
+                                    <li>New Love</li><br>
+                                    <li>My Love</li><br>
+                                    <li>Swan song</li><br>
+                                    <li>Cold heart</li><br>
+                                </ul>
+                            </div>
+                            <div class="columna-derecha">
+                                <ul class="viñetas-sub" style="font-size: 80%;">
+                                    <li>Sweetest pie</li><br>
+                                    <li>Potion</li><br>
+                                    <li>Dance the night</li><br>
+                                    <li>Houdini</li><br>
+                                    <li>Training season</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <div>
+            <button class="botonesArtista" onclick="IrAlDLSpotify()" title="Spotify">
+                <i class="fa-brands fa-spotify"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLIG()" title="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLRecital()" title="Ver recital">
+                <i class="fa-solid fa-guitar"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLTW()" title="twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </button>
+            <button class="botonesArtista" onclick="IrAlDLYT()" title="youtube">
+                <i class="fa-brands fa-youtube"></i>
+            </button>
+            <button class="botonesArtista" onclick="volver()" title="Volver a inicio">
+                <i class="fa-solid fa-house"></i>
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
