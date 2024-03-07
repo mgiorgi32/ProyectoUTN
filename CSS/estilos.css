@@ -117,31 +117,21 @@ h3{
   }
   .titulo{
     text-align: center;
-    margin-right: 25px;
     text-decoration: underline;
     color: rgb(0, 124, 124);
   }
-  .botonesArtista{
-    background-color: rgb(0, 124, 124);
-    position: relative;
-    margin-left: 4%;
-  }
+
 
   .principal{
     border: 5px solid rgb(0, 124, 124);
-    position: relative;
-    margin: 0 auto;
     display: block;
+    width: 60%;
+    margin: auto;
   }
   a{
     color: transparent;
   }
 
-  .botonesArtista2{
-    background-color: rgb(0, 124, 124);
-    position: relative;
-    margin-left: 7%;
-  }
 
   .viñetas {
     list-style-type: none;
@@ -194,4 +184,21 @@ p{
 }
 .p5{
   font-size: 13px;
+}
+
+section{
+  text-align: center;
+  margin-right: 20px;
+}
+.logoCopy{
+  color: black;
+  width: min-content;
+}
+
+nav{
+  text-align: center;
+}
+nav>button{
+  background-color: rgb(0, 124, 124);
+    position:relative;
 }
