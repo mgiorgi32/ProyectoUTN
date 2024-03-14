@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <section>
+        <h4>Contacto</h4>
+        <p>* campo requerido</p>
+        <form action="mailto:marcosgiorgi01@gmail.com" method="post">
+            <div>
+                <label>Nombre *
+                    <input required type="text" name="Nombre" id="nombre" placeholder="Escriba su nombre">
+                </label>
+            </div>
+            <div>
+                <label>Edad *
+                    <input required type="number" name="Edad" id="edad" placeholder="Inserte su edad">
+                </label>
+            </div>
+            <div>
+                <label>Fecha de nacimiento
+                    <input type="date" name="FDNacimiento" id="nacimiento">
+                </label>
+            </div>
+            <div>
+                <label>Genero
+                    <label>M<input type="radio" name="Genero" id="genero" value="Masculino"></label>
+                    <label>F<input type="radio" name="Genero" id="genero" value="Femenino"></label>
+                    <label>X<input type="radio" name="Genero" id="genero" value="Prefiero no decirlo"></label>
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" name="news" id="news" checked>Acepto recibir Spam
+            </div>
+            <div>
+                <label>Email *
+                    <input required type="email" name="Email" id="email" placeholder="Escriba su email">
+                </label>
+            </div>
+            <div>
+                <label>Asunto *
+                    <select name="asunto" required>
+                        <option value="0">--Seleccione un asunto--</option>
+                        <option value="1">Recomendacion</option>
+                        <option value="2">Error de informacion</option>
+                        <option value="3">Oportunidad de trabajo</option>
+                        <option value="4">Colaboracion</option>
+                        <option value="5">Consulta</option>
+                        <option value="6">Otros</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Mensaje *
+                    <textarea required name="Mensaje" id="msj" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar email">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
