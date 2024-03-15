@@ -1,0 +1,39 @@
+.cuadradoArtista {
+    width: 90%; 
+    max-width: 800px; 
+    background-color: rgb(186, 222, 186);
+    margin: 10px; 
+    padding: 10px;
+    box-shadow: 2px 2px 10px lavender;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cuadradoArtista h3{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .cuadradoArtista p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .cuadradoArtista img {
+    width: calc(50% - 10px);
+    height: auto; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    display: block; 
+    object-fit: cover; 
+}
+.cuadradoArtista a {
+  flex: 0 0 calc(50% - 10px); 
+  margin-bottom: 10px; 
+}
+.cuadradoArtista a>img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: cover; 
+}

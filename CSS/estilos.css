@@ -1,5 +1,8 @@
-body{
-    background-color:beige;
+body {
+  background-color: beige;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 h1, h5{
     color: rgb(0, 124, 124);
@@ -8,31 +11,83 @@ h1, h5{
     text-align: center;
     text-decoration: underline;
 }
-
-ul{
-    list-style-type: none;
-    background-color: #E6E6FA;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.menuInicial {
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
 }
 
-li{
-    float: left;
+.menuInicial > ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-li a{
-    display: block;
-    color: #7B68EE;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
+.menuInicial > ul > li {
+  display: inline-block;
 }
 
-li a:hover{
-    background-color:rgb(165, 245, 245);
+.menuInicial > ul > li > a {
+  display: block;
+  color: #7b68ee;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
 }
+
+.menuInicial > ul > li > a:hover {
+  background-color: rgb(165, 245, 245);
+}
+
+.menuArtista {
+  background-color: #e6e6fa;
+}
+
+.menuArtista > ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menuArtista > ul > li {
+  float: left;
+}
+
+.menuArtista > ul > li > a {
+  display: block;
+  color: #7b68ee;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menuArtista > ul > li > a:hover {
+  background-color: rgb(165, 245, 245);
+}
+
+.menuPrincipal {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menuPrincipal > li {
+  float: left;
+}
+
+.menuPrincipal > li > a {
+  display: block;
+  color: #7B68EE;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
 
 img{
     width: 50%;
@@ -52,41 +107,20 @@ h3{
     color:#0e1b2c;
 }
 .contenedor {
-    display: flex; 
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
   .cuadrado {
     width: 350px;
     height: 300px;
     background-color: #ccc;
     margin-right: 10px; 
     padding: 10px;
+    box-shadow: 2px 2px 10px aquamarine;
+    overflow-y: auto;
   }
-  .cuadradoArtista {
-    width: 500px;
-    height: 460px;
-    background-color:rgb(186, 222, 186);
-    margin-right: 10px; 
-    padding: 10px;
-  }
-  .cuadradoArtista h3{
-    color: black;
-    text-align: center;
-    text-decoration: underline;
-  }
-  .cuadradoArtista p{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .cuadradoArtista img{
-    width: 150px;
-    height:150px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    object-fit: cover;
-    text-align: center;
-  }
+
   .cuadrado h3 {
     margin-top: 0;
   }
@@ -107,7 +141,7 @@ h3{
     font-size: 18px;
     text-align: right;
     color: #7B68EE;
-    margin-left: 775%;
+    margin-left: 1%;
     margin-top: 20%;
   }
 
@@ -121,19 +155,19 @@ h3{
     color: rgb(0, 124, 124);
   }
 
-
-  .principal{
-    border: 5px solid rgb(0, 124, 124);
-    display: block;
-    width: 60%;
-    margin: auto;
-  }
   a{
     color: transparent;
   }
 
+  .principal {
+    border: 5px solid rgb(0, 124, 124);
+    width: 90%; 
+    max-width: 800px; 
+    display: block;
+    margin: auto;
+  }
 
-  .viñetas {
+.viñetas {
     list-style-type: none;
     background-color: transparent;
     width: calc(50% - 10px); 
@@ -146,11 +180,7 @@ h3{
     text-decoration: underline;
 }
 
-.viñetas > li:before {
-    content: "•"; 
-    position: absolute;
-    left: -20px; 
-}
+
 
 .viñetas-sub {
     list-style-type: none;
@@ -190,10 +220,6 @@ section{
   text-align: center;
   margin-right: 20px;
 }
-.logoCopy{
-  color: black;
-  width: min-content;
-}
 
 nav{
   text-align: center;
@@ -201,4 +227,58 @@ nav{
 nav>button{
   background-color: rgb(0, 124, 124);
     position:relative;
+}
+input{
+  margin: 2%;
+}
+.contenedorBotones{
+  width: 100%;
+  text-align: center;
+}
+.boton{
+  height: 20px;
+  background-color: aquamarine;
+}
+.boton>i{
+  color: #0e1b2c;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0e1b2c;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer > nav > button{
+  height: 50px;
+  width: 50px;
+}
+
+.logoCopy {
+  color: black;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .cuadradoArtista {
+      width: 45%; 
+  }
+
+  .principal {
+      width: 45%; 
+  }
 }
