@@ -11,6 +11,7 @@
     align-items: center;
   }
   .cuadradoArtista h3{
+    width: 100%;
     color: black;
     text-align: center;
     text-decoration: underline;
@@ -19,16 +20,6 @@
     color: black;
     font-family: 'Times New Roman', Times, serif;
   }
-  /*.cuadradoArtista img{
-    width: 150px;
-    height:150px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    object-fit: cover;
-    text-align: center;
-  }*/
   .cuadradoArtista img {
     width: calc(50% - 10px);
     height: auto; 
@@ -42,8 +33,9 @@
   margin-bottom: 10px; 
 }
 .cuadradoArtista a>img {
-  width: 100%; 
-  height: auto; 
+  width: 70%;
+  height: 70%;
+  margin-left: 10%;
   display: block; 
   object-fit: cover; 
 }

@@ -181,23 +181,18 @@ h3{
 }
 
 
-
 .viñetas-sub {
-    list-style-type: none;
     background-color: transparent; 
     margin-left: 15px;
 }
 
-.viñetas-sub > li:before {
-    content: "•"; 
-}
-
 .conteViñetas{
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 600px;
 }
+
 .columnas {
   display: flex;
 }
