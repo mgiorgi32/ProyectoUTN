@@ -1,15 +1,15 @@
 function IrAlTopIG(){
-    window.open('https://www.instagram.com/billieeilish/', '_blank');
+    window.open('https://www.instagram.com/twentyonepilots/?hl=es-la', '_blank');
 }
 function IrAlTopRecital(){
-    window.open('https://youtu.be/XkFhEoXnMrc?si=AKDt_cGBPCjBG_gR', '_blank');
+    window.open('https://youtu.be/1AyWoI2e7FM?si=D22xQSdgx9dnJ-WM', '_blank');
 }
 function IrAlTopSpotify(){
-    window.open('https://open.spotify.com/intl-es/artist/6qqNVTkY8uBg9cP3Jd7DAH', '_blank');
+    window.open('https://open.spotify.com/intl-es/artist/3YQKmKGau1PzlVlkL1iodx', '_blank');
 }
 function IrAlTopTW(){
-    window.open('https://twitter.com/billieeilish?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor', '_blank');
+    window.open('https://twitter.com/twentyonepilots', '_blank');
 }
 function IrAlTopYT(){
-    window.open('https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ', '_blank');
+    window.open('https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw', '_blank');
 }

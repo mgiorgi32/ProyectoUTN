@@ -88,6 +88,24 @@ function IrALaDuaWeb(){
 function acercaDeDL(){
     window.location.replace('duaLipa.html')
 }
+function IrALaTOPWeb(){
+    window.open('https://www.twentyonepilots.com/', '_blank');
+}
+function acercaDeTOP(){
+    window.location.replace('Top.html')
+}
+function IrALaORWeb(){
+    window.open('https://store.oliviarodrigo.com/', '_blank');
+}
+function acercaDeOR(){
+    window.location.replace('olivia.html')
+}
+function IrALaESWeb(){
+    window.open('https://www.edsheeran.com/', '_blank');
+}
+function acercaDeES(){
+    window.location.replace('ed.html')
+}
 function volver(){
     window.location.replace('index.html')
 }
